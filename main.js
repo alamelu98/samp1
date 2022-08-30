@@ -7,11 +7,11 @@ $(window).on("load",()=>
 {
     
 
- 
-        $(".home_section").show();
-        $(".about_section").show();
-        $(".gallery_section").show();
-        $(".load_section").hide();
+    $(".load_section").hide();
+        $(".home_section").fadeIn(3000);
+        $(".about_section").fadeIn(3000);
+        $(".gallery_section").fadeIn(3000);
+       
         $(".load").removeClass("anima");
     
    
