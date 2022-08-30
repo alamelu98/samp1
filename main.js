@@ -1,11 +1,16 @@
 
-
+ $(".load_section").show();
+$(".home_section").hide();
+$(".about_section").hide();
+$(".gallery_section").hide();
 $(window).on("load",()=>
 {
     
 
  
-     
+        $(".home_section").show();
+        $(".about_section").show();
+        $(".gallery_section").show();
         $(".load_section").hide();
         $(".load").removeClass("anima");
     
