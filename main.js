@@ -1,8 +1,9 @@
 
 
-
-$(document).ready(function()
+$(window).on("load",()=>
 {
+    
+
  
      
         $(".load_section").hide();
@@ -62,6 +63,13 @@ $(document).ready(function()
 
 
 })
+
+
+
+
+
+
+
 
 
 
